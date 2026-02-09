@@ -23,9 +23,9 @@
         integrity="sha384-z8WOGeRYiUbxCkuiIJDf893P50cHWL39Aou0EdZrUlDpjDYy0y6dbBdVXQzrFN6N"></script>
     <script>/*if( ('webdriver' in navigator) && navigator.webdriver ) {window.stop();setTimeout(function(){ document.write(''); }, 0);throw "WebdriverError: webdriver is not allowed";}else*/ if (navigator.userAgent.toLowerCase().indexOf('android') > -1) document.documentElement.className += ' droid'; else if ((navigator.userAgent.toLowerCase().indexOf('iphone') > -1) || (navigator.userAgent.toLowerCase().indexOf('ipad') > -1)) { document.documentElement.className += ' ios'; window.addEventListener('pointerdown', function (e) { e.stopImmediatePropagation(); }, true); } if ((navigator.userAgent.toLowerCase().indexOf('mobile') > -1) || (navigator.userAgent.toLowerCase().indexOf('android') > -1)) document.documentElement.className += ' mobile'; var cols = localStorage.getItem('style_mode'); if (cols == 2 || cols == 3 || cols == 'list') { document.documentElement.className = document.documentElement.className.replace(/colsauto\s?/, ''); document.documentElement.className += ' cols' + cols; }</script>
     <link rel="preconnect" href="https://cdn.photoacompanhantes.com">
-    <link rel="preload" href="https://cdn.photoacompanhantes.com/fonts/4254/MaterialIcons/MaterialIcons-Regular.woff2"
+    <link rel="preload" href="MaterialIcons-Regular.woff2"
         as="font" type="font/woff2" crossorigin="">
-    <link rel="preload" href="https://cdn.photoacompanhantes.com/fonts/4254/MaterialSymbols/MaterialSymbols.woff2"
+    <link rel="preload" href="MaterialSymbols.woff2"
         as="font" type="font/woff2" crossorigin="">
     <style>
         html {
@@ -213,7 +213,7 @@
             font-style: normal;
             font-weight: 400;
             src: url(https://cdn.photoacompanhantes.com/fonts/4254/MaterialIcons/MaterialIcons-Regular.eot);
-            src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://cdn.photoacompanhantes.com/fonts/4254/MaterialIcons/MaterialIcons-Regular.woff2) format('woff2'), url(https://cdn.photoacompanhantes.com/fonts/4254/MaterialIcons/MaterialIcons-Regular.woff) format('woff'), url(MaterialIcons-Regular.ttf) format('truetype')
+            src: local('Material Icons'), local('MaterialIcons-Regular'), url(MaterialIcons-Regular.woff2) format('woff2'), url(MaterialIcons-Regular.woff) format('woff'), url(MaterialIcons-Regular.ttf) format('truetype')
         }
 
         @font-face {
